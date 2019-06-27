@@ -1,0 +1,10 @@
+{
+    "files": [],
+    "references": [{
+        "path": "ahpaa-core"
+    }, {
+        "path": "ahpaa-medicalproffesional-app-ui"
+    }, {
+        "path": "ahpaa-parents-app-ui"
+    }]
+}
