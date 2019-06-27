@@ -1,0 +1,13 @@
+{
+    "name": "amerykahospital-personalized-allergology-advice-app",
+    "private": true,
+    "scripts": {
+        "lerna-bootstrap": "lerna bootstrap",
+        "build": "npm run lerna-bootstrap",
+        "firebase-deploy": "firebase deploy",
+        "deploy": "npm run build && npm run firebase-deploy"
+    },
+    "devDependencies": {
+        "lerna": "^3.15.0"
+    }
+}
