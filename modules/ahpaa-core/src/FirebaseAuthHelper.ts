@@ -34,9 +34,12 @@ export class FirebaseAuthHelper {
             signInSuccessUrl: signInSuccessfulUrl,
             signInOptions: FirebaseAuthHelper.getSignInProviders(),
         };
-        const ui = new firebaseui.auth.AuthUI(FirebaseAuthHelper.doAuth());
-        ui.start(id, uiConfig);
+        FirebaseAuthHelper.UI_INSTANCE =
+            FirebaseAuthHelper.UI_INSTANCE || new firebaseui.auth.AuthUI(FirebaseAuthHelper.doAuth());
+        FirebaseAuthHelper.UI_INSTANCE.start(id, uiConfig);
     }
+
+    private static UI_INSTANCE: firebaseui.auth.AuthUI | undefined = undefined;
 }
 
 export namespace FirebaseAuthHelper {
