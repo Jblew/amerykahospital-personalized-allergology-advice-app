@@ -1,9 +1,7 @@
 // tslint:disable:ordered-imports
 
 import firebase from "firebase/app";
-
-// the following import is necessary
-import firebaseAuth from "firebase/auth";
+import firebaseui from "firebaseui";
 
 import { FIREBASE_CONFIG } from "./firebase.config";
 
@@ -29,6 +27,15 @@ export class FirebaseAuthHelper {
 
     public static doAuth(): firebase.auth.Auth {
         return firebase.auth();
+    }
+
+    public static startFirebaseAuthUI(id: string, signInSuccessfulUrl: string) {
+        const uiConfig = {
+            signInSuccessUrl: signInSuccessfulUrl,
+            signInOptions: FirebaseAuthHelper.getSignInProviders(),
+        };
+        const ui = new firebaseui.auth.AuthUI(FirebaseAuthHelper.doAuth());
+        ui.start(id, uiConfig);
     }
 }
 
