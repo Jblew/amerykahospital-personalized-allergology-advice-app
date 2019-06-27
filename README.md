@@ -6,3 +6,16 @@ Personalized guidelines for parents of patients of Pediatrics Allergology Ward i
 ### Information flow
 
 ![Information flow](./docs/information-flow.jpg)
+
+
+### Modules
+
+- core — Core library
+- firebase — Firebase deployment
+- parents-app-ui — UI for Parent's app
+- parents-app-android — Deployment to the android store
+- parents-app-ios —  Deployment to the iOS store
+- medicalproffesional-app-ui
+- medicalproffesional-app-electron
+- website
+
