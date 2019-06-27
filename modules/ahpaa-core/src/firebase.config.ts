@@ -1,9 +1,9 @@
 export const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyAWmxEKA-qU3DNTiEiMdzKhhzj-Kqzpnog",
-    authDomain: "amerykahospital-advice.firebaseapp.com",
-    databaseURL: "https://amerykahospital-advice.firebaseio.com",
-    projectId: "amerykahospital-advice",
-    storageBucket: "",
-    messagingSenderId: "42601308746",
-    appId: "1:42601308746:web:6df4fdd38b8de64d",
+    apiKey: "AIzaSyDkFr0-ugr_Zw37jp2C20hmN-5TCWcsCsk",
+    authDomain: "amerykahospital-advice-68385.firebaseapp.com",
+    databaseURL: "https://amerykahospital-advice-68385.firebaseio.com",
+    projectId: "amerykahospital-advice-68385",
+    storageBucket: "amerykahospital-advice-68385.appspot.com",
+    messagingSenderId: "1065789277110",
+    appId: "1:1065789277110:web:92e5cb6d64f97d07",
 };

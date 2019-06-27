@@ -1,6 +1,8 @@
-// tslint:disable:no-console
+// tslint:disable:ordered-imports
 
 import firebase from "firebase/app";
+
+// the following import is necessary
 import firebaseAuth from "firebase/auth";
 
 import { FIREBASE_CONFIG } from "./firebase.config";
