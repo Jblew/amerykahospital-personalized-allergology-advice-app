@@ -24,7 +24,7 @@ export class FirebaseAuthHelper {
     }
 
     public static getSignInProviders(): string[] {
-        return [firebase.auth.GoogleAuthProvider.PROVIDER_ID, firebase.auth.EmailAuthProvider.PROVIDER_ID];
+        return [/*firebase.auth.GoogleAuthProvider.PROVIDER_ID,*/ firebase.auth.EmailAuthProvider.PROVIDER_ID];
     }
 
     public static doAuth(): firebase.auth.Auth {
