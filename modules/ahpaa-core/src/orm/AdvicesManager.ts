@@ -1,19 +1,23 @@
 // tslint:disable no-console
 
 import firebase from "firebase/app";
+import "firebase/firestore";
 
+import { FirestoreCollections } from "../FirestoreCollections";
 import { Advice } from "../model/Advice";
 
 export class AdvicesManager {
     public static async addAdvice(advice: Advice) {
         await firebase
             .firestore()
-            .collection(Advice.ADVICES_COLLECTION_KEY)
+            .collection(FirestoreCollections.ADVICES_COLLECTION_KEY)
             .add(advice);
     }
 
     public static async fetchAdvices(filter: AdvicesManager.FetchFilter): Promise<Advice[]> {
-        let query: firebase.firestore.Query = firebase.firestore().collection(Advice.ADVICES_COLLECTION_KEY);
+        let query: firebase.firestore.Query = firebase
+            .firestore()
+            .collection(FirestoreCollections.ADVICES_COLLECTION_KEY);
 
         console.log("Query with filter", filter);
 

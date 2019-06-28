@@ -1,9 +1,11 @@
 // tslint:disable:ordered-imports
 
 import firebase from "firebase/app";
+import "firebase/firestore";
 import firebaseui from "firebaseui";
 
 import { FIREBASE_CONFIG } from "./firebase.config";
+import { FirestoreCollections } from "./FirestoreCollections";
 
 export class FirebaseAuthHelper {
     public static initialize(opts: FirebaseAuthHelper.InitializeOptions) {
@@ -37,6 +39,15 @@ export class FirebaseAuthHelper {
         FirebaseAuthHelper.UI_INSTANCE =
             FirebaseAuthHelper.UI_INSTANCE || new firebaseui.auth.AuthUI(FirebaseAuthHelper.doAuth());
         FirebaseAuthHelper.UI_INSTANCE.start(id, uiConfig);
+    }
+
+    public static async checkIfUserIsConfirmedMedicalProfessional(uid: string) {
+        const res = await firebase
+            .firestore()
+            .collection(FirestoreCollections.MEDICALPROFESSIONAL_UIDS_COLLECTION)
+            .doc(uid)
+            .get();
+        return res.exists;
     }
 
     private static UI_INSTANCE: firebaseui.auth.AuthUI | undefined = undefined;

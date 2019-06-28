@@ -10,8 +10,6 @@ export interface Advice {
 }
 
 export namespace Advice {
-    export const ADVICES_COLLECTION_KEY = "ahpaa_advices";
-
     export function validate(o: Advice) {
         ow(o, "Advice", ow.object);
         ow(o.medicalprofessionalName, "Advice.medicalprofessionalName", ow.string.nonEmpty);
