@@ -1,6 +1,7 @@
 import ow from "ow";
 
 export interface Advice {
+    id: string;
     patientName: string;
     medicalprofessionalName: string;
     parentPhoneNumber: string;
@@ -12,6 +13,7 @@ export interface Advice {
 export namespace Advice {
     export function validate(o: Advice) {
         ow(o, "Advice", ow.object);
+        ow(o.id, "Advice.id", ow.string.nonEmpty);
         ow(o.medicalprofessionalName, "Advice.medicalprofessionalName", ow.string.nonEmpty);
         ow(o.patientName, "Advice.patientName", ow.string.nonEmpty);
         ow(o.parentPhoneNumber, "Advice.parentPhoneNumber", ow.string.numeric.length(9));
