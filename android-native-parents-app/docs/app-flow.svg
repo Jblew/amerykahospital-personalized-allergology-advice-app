@@ -1,0 +1,74 @@
+<svg width="957" height="738" version="1.1" baseProfile="full" viewbox="0 0 957 738" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round"><path d="M297 44.5 L297 64.5 L297 84.5 L297 84.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M291.7 71.2 L297 77.8 L302.3 71.2 L297 84.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M297 161.5 L297 181.5 L297 201.5 L297 201.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M291.7 188.2 L297 194.8 L302.3 188.2 L297 201.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M352.5 230.4 L444 252.5 L444 272.5 L444 272.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M438.7 259.2 L444 265.8 L449.3 259.2 L444 272.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M241.5 230.4 L150 252.5 L150 272.5 L150 272.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M144.7 259.2 L150 265.8 L155.3 259.2 L150 272.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M444 303.5 L444 323.5 L444 366.5 L444 366.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M438.7 353.2 L444 359.8 L449.3 353.2 L444 366.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M416.4 397.5 L340 440.5 L340 460.5 L340 460.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M334.7 447.2 L340 453.8 L345.3 447.2 L340 460.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M471.6 397.5 L548 440.5 L548 476 L548 476 L548 511.5 L548 511.5 L548 554.5 L548 554.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M542.7 541.2 L548 547.8 L553.3 541.2 L548 554.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M340 491.5 L340 511.5 L340 539 L340 539 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M334.7 525.7 L340 532.3 L345.3 525.7 L340 539 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M340 601 L340 628.5 L435.5 655.4 L435.5 655.4 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M421.2 656.9 L429.1 653.6 L424.1 646.6 L435.5 655.4 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M548 585.5 L548 628.5 L548 648.5 L548 648.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M542.7 635.2 L548 641.8 L553.3 635.2 L548 648.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M150 303.5 L150 323.5 L150 343.5 L150 343.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M144.7 330.2 L150 336.8 L155.3 330.2 L150 343.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M567 44.5 L567 64.5 L567 92 L567 92 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M561.7 78.7 L567 85.3 L572.3 78.7 L567 92 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M803.5 491.5 L803.5 511.5 L803.5 531.5 L803.5 531.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M798.2 518.2 L803.5 524.8 L808.8 518.2 L803.5 531.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M803.5 608.5 L803.5 628.5 L660.5 661.2 L660.5 661.2 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M672.3 653.1 L667 659.8 L674.7 663.5 L660.5 661.2 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<rect x="203.5" y="84.5" height="77" width="187" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="297" y="106" style="text-anchor: middle;">check if logged in</text>
+<path d="M203.5 115.5 L390.5 115.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="211.5" y="137" style="font-weight:normal;">- loading fragment</text>
+<text x="211.5" y="152" style="font-weight:normal;">- drawer disabled</text>
+<rect x="246.5" y="539.5" height="62" width="187" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="340" y="561" style="text-anchor: middle;">add advice</text>
+<path d="M246.5 570.5 L433.5 570.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="254.5" y="592" style="font-weight:normal;">- loading fragment</text>
+<rect x="435.5" y="648.5" height="77" width="225" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="548" y="670" style="text-anchor: middle;">show advices</text>
+<path d="M435.5 679.5 L660.5 679.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="443.5" y="701" style="font-weight:normal;">- advice list fragment</text>
+<text x="443.5" y="716" style="font-weight:normal;">- drawer enabled</text>
+<rect x="13.5" y="343.5" height="77" width="273" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="150" y="365" style="text-anchor: middle;">ask for auth</text>
+<path d="M13.5 374.5 L286.5 374.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="21.5" y="396" style="font-weight:normal;">- firebase ui auth fragment</text>
+<text x="21.5" y="411" style="font-weight:normal;">- drawer disabled</text>
+<rect x="430.5" y="92.5" height="62" width="273" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="567" y="114" style="text-anchor: middle;">sign out</text>
+<path d="M430.5 123.5 L703.5 123.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="438.5" y="145" style="font-weight:normal;">- firebase ui auth fragment</text>
+<rect x="662.5" y="531.5" height="77" width="282" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="803.5" y="553" style="text-anchor: middle;">manual add advice</text>
+<path d="M662.5 562.5 L944.5 562.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="670.5" y="584" style="font-weight:normal;">- manual add advice fragment</text>
+<text x="670.5" y="599" style="font-weight:normal;">- drawer enabled</text>
+<path d="M268.5 13.5 L333.5 13.5 L325.5 44.5 L260.5 44.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<text x="297" y="35" style="font-weight:normal;text-anchor: middle;">launch</text>
+<path d="M495.5 13.5 L646.5 13.5 L638.5 44.5 L487.5 44.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<text x="567" y="35" style="font-weight:normal;text-anchor: middle;">menu &gt; sign out</text>
+<path d="M689.5 460.5 L925.5 460.5 L917.5 491.5 L681.5 491.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<text x="803.5" y="482" style="font-weight:normal;text-anchor: middle;">menu &gt; manual add advice</text>
+<path d="M297 193.5 L360.5 217 L297 240.5 L233.5 217 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<text x="297" y="223" style="font-weight:normal;text-anchor: middle;">logged in?</text>
+<rect x="379.5" y="272.5" rx="15.5" ry="15.5" height="31" width="130" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="444.5" y="294" style="font-weight:normal;text-anchor: middle;">is logged in</text>
+<rect x="66.5" y="272.5" rx="15.5" ry="15.5" height="31" width="168" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="150.5" y="294" style="font-weight:normal;text-anchor: middle;">is not logged in</text>
+<path d="M444 358.5 L569.5 382 L444 405.5 L318.5 382 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<text x="444" y="388" style="font-weight:normal;text-anchor: middle;">launch via advice link?</text>
+<rect x="260.5" y="460.5" rx="15.5" ry="15.5" height="31" width="159" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="340" y="482" style="font-weight:normal;text-anchor: middle;">has advice link</text>
+<rect x="473.5" y="554.5" rx="15.5" ry="15.5" height="31" width="149" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="548" y="576" style="font-weight:normal;text-anchor: middle;">no advice link</text></svg>

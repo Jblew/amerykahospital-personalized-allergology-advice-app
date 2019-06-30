@@ -1,0 +1,48 @@
+#d irection: right
+[<input>launch]
+[<input>menu > sign out]
+[<input>menu > manual add advice]
+
+[launch] -> [check if logged in]
+[check if logged in|
+- loading fragment
+- drawer disabled
+]
+
+[check if logged in] -> [<choice>logged in?]
+[logged in?] -> [<state>is logged in]
+[logged in?] -> [<state>is not logged in]
+
+[is logged in] -> [<choice>launch via advice link?]
+[<choice>launch via advice link?] -> [<state>has advice link]
+[<choice>launch via advice link?] -> [<state>no advice link]
+
+
+[has advice link] -> [add advice]
+[add advice|
+- loading fragment
+]
+[add advice] -> [show advices]
+
+[no advice link] -> [show advices]
+[show advices|
+- advice list fragment
+- drawer enabled]
+
+[is not logged in] -> [ask for auth]
+
+[ask for auth|
+- firebase ui auth fragment
+- drawer disabled]
+
+
+[menu > sign out] -> [sign out]
+[sign out|
+- firebase ui auth fragment]
+
+[menu > manual add advice] -> [manual add advice]
+[manual add advice|
+- manual add advice fragment
+- drawer enabled
+]
+[manual add advice] -> [show advices]
