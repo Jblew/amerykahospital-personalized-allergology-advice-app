@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <fragment android:name="pl.jblew.szpitalamerykaporady.AdviceListFragment"
+    <fragment android:name="pl.jblew.szpitalamerykaporady.adviceui.AdviceListFragment"
         android:id="@+id/advicelist_inmainview_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

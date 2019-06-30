@@ -1,4 +1,4 @@
-package pl.jblew.szpitalamerykaporady;
+package pl.jblew.szpitalamerykaporady.adviceui;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import pl.jblew.szpitalamerykaporady.AdviceListFragment.OnListFragmentInteractionListener;
+import pl.jblew.szpitalamerykaporady.R;
+import pl.jblew.szpitalamerykaporady.adviceui.AdviceListFragment.OnListFragmentInteractionListener;
 import pl.jblew.szpitalamerykaporady.dummy.DummyContent.DummyItem;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package pl.jblew.szpitalamerykaporady;
+package pl.jblew.szpitalamerykaporady.adviceui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import pl.jblew.szpitalamerykaporady.R;
 import pl.jblew.szpitalamerykaporady.dummy.DummyContent;
 import pl.jblew.szpitalamerykaporady.dummy.DummyContent.DummyItem;
 

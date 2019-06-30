@@ -1,4 +1,4 @@
-package pl.jblew.szpitalamerykaporady;
+package pl.jblew.szpitalamerykaporady.adviceui;
 
 import android.os.Bundle;
 
@@ -21,8 +21,11 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
 
+import pl.jblew.szpitalamerykaporady.R;
+import pl.jblew.szpitalamerykaporady.dummy.DummyContent;
+
 public class AdviceListWithDrawer extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AdviceListFragment.OnListFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,5 +105,10 @@ public class AdviceListWithDrawer extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onListFragmentInteraction(DummyContent.DummyItem item) {
+
     }
 }

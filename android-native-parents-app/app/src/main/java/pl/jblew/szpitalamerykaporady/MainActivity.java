@@ -19,7 +19,6 @@ import com.google.firebase.auth.ActionCodeSettings;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.EmailAuthProvider;
-import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthSettings;
 import com.google.firebase.auth.FirebaseUser;
@@ -35,6 +34,7 @@ import com.google.firebase.auth.UserProfileChangeRequest;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import pl.jblew.szpitalamerykaporady.adviceui.AdviceListFragment;
 import pl.jblew.szpitalamerykaporady.dummy.DummyContent;
 
 public class MainActivity extends AppCompatActivity implements AdviceListFragment.OnListFragmentInteractionListener {
