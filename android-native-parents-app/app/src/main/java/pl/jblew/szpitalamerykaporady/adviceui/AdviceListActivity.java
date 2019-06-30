@@ -24,7 +24,7 @@ import android.view.Menu;
 import pl.jblew.szpitalamerykaporady.R;
 import pl.jblew.szpitalamerykaporady.dummy.DummyContent;
 
-public class AdviceListWithDrawer extends AppCompatActivity
+public class AdviceListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, AdviceListFragment.OnListFragmentInteractionListener {
 
     @Override

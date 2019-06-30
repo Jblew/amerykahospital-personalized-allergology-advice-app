@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".adviceui.AdviceListWithDrawer"
+            android:name=".adviceui.AdviceListActivity"
             android:label="@string/title_activity_advice_list_with_drawer"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

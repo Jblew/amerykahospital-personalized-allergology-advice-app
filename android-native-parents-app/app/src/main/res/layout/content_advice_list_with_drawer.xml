@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".adviceui.AdviceListWithDrawer"
+    tools:context=".adviceui.AdviceListActivity"
     tools:showIn="@layout/app_bar_advice_list_with_drawer">
 
     <fragment android:name="pl.jblew.szpitalamerykaporady.adviceui.AdviceListFragment"
