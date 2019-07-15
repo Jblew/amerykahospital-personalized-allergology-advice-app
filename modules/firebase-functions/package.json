@@ -8,7 +8,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "lint-fix": "tslint --fix -c tslint.json -p tsconfig.lint.json"
+    "lint-fix": "tslint --fix -c tslint.json -p tsconfig.json"
   },
   "engines": {
     "node": "8"
