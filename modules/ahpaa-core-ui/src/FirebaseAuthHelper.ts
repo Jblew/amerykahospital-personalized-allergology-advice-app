@@ -4,8 +4,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import firebaseui from "firebaseui";
 
-import { FIREBASE_CONFIG } from "./firebase.config";
-import { FirestoreCollections } from "./FirestoreCollections";
+import { FirestoreCollections, FIREBASE_CONFIG } from "ahpaa-core";
 
 export class FirebaseAuthHelper {
     public static initialize(opts: FirebaseAuthHelper.InitializeOptions) {

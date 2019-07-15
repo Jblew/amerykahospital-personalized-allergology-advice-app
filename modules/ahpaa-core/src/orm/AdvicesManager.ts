@@ -7,11 +7,9 @@ import { FirestoreCollections } from "../FirestoreCollections";
 import { Advice } from "../model/Advice";
 
 export class AdvicesManager {
-    public static async addAdvice(advice: Advice) {
-        await firebase
-            .firestore()
-            .collection(FirestoreCollections.ADVICES_COLLECTION_KEY)
-            .add(advice);
+    public static async addAdvice(advice: Advice, firestoreOrNull?: firebase.firestore.Firestore) {
+        const firestore: firebase.firestore.Firestore = firestoreOrNull || firebase.firestore();
+        await firestore.collection(FirestoreCollections.ADVICES_COLLECTION_KEY).add(advice);
     }
 
     public static async fetchAdvices(filter: AdvicesManager.FetchFilter): Promise<Advice[]> {

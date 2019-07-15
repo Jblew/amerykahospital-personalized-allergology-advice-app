@@ -3,8 +3,10 @@
     "references": [{
         "path": "ahpaa-core"
     }, {
+        "path": "ahpaa-core-ui"
+    }, {
         "path": "ahpaa-medicalproffesional-app-ui"
     }, {
-        "path": "ahpaa-parents-app-ui"
+        "path": "firebase-functions"
     }]
 }
