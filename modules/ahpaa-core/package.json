@@ -20,12 +20,5 @@
         "firebaseui": "^4.0.0",
         "ow": "^0.13.2",
         "uuid": "^3.3.2"
-    },
-    "devDependencies": {
-        "@types/firebase": "^3.2.1",
-        "@types/uuid": "^3.4.4",
-        "tslint": "^5.12.0",
-        "typescript": "^3.2.2",
-        "wise-tslint-configuration": "^0.2.0"
     }
 }
