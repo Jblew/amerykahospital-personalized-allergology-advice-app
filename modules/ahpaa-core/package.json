@@ -3,7 +3,7 @@
     "version": "0.2.0",
     "private": true,
     "author": "Jędrzej Lewandowski <jedrzejblew@gmail.com>",
-    "license": "UNLICENSED",
+    "license": "GPL-3.0",
     "main": "dist/index.js",
     "scripts": {
         "build:cleanbefore": "rm -rf dist",
@@ -16,16 +16,15 @@
         "lint-fix": "tslint --fix -c tslint.json -p tsconfig.lint.json"
     },
     "dependencies": {
-        "firebase": "^6.2.3",
+        "firebase": "^6.3.0",
         "firebaseui": "^4.0.0",
         "ow": "^0.13.2",
         "uuid": "^3.3.2"
     },
     "devDependencies": {
-        "@types/firebase": "^3.2.1",
-        "@types/uuid": "^3.4.4",
+        "@types/uuid": "^3.4.5",
         "tslint": "^5.12.0",
-        "typescript": "^3.2.2",
+        "typescript": "^3.5.3",
         "wise-tslint-configuration": "^0.2.0"
     }
 }
