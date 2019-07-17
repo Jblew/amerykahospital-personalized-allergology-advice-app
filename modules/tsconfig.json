@@ -6,7 +6,5 @@
         "path": "ahpaa-core-ui"
     }, {
         "path": "ahpaa-medicalproffesional-app-ui"
-    }, {
-        "path": "firebase-functions"
     }]
 }
