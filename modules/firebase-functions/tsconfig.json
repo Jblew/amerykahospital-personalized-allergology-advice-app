@@ -1,6 +1,17 @@
 {
-  "extends": "../tsconfig.settings.json",
   "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "module": "commonjs",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "allowJs": false,
     "outDir": "lib",
     "target": "es5",
     "baseUrl": "src/",
